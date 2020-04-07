@@ -1,0 +1,27 @@
+.left-nav {
+    min-height: calc(100vh - 56px);
+}
+
+.left-nav ul {
+    line-height: 200%;
+    list-style: none;
+}
+
+.left-nav h2 {
+    line-height: 150%;
+}
+
+.sticky-offset {
+    top: 56px;
+}
+
+#mainContent {
+    right: 0px;
+}
+
+@media (min-width: 576px) {  
+ 
+    body {
+        font-size: 16px;
+    }
+}
